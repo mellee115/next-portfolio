@@ -1,0 +1,16 @@
+.imgGrid{
+  height: 80%;
+  overflow: hidden;
+  overflow-y: scroll;
+  padding: .5rem;
+}
+
+.imgGrid__img{
+  max-height: 300px;
+  max-width: 300px;
+  padding: .25rem;
+  border-radius: 20px;
+  position: relative;
+  pointer-events: none;
+  object-fit: cover;
+}

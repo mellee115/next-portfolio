@@ -1,0 +1,11 @@
+.blob{
+  background-image: url("../../assets/images/blob-haikei.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 100%;
+  animation: shrink-grow 20s ease-in-out infinite;
+  z-index: -1;
+  position: absolute;
+}

@@ -1,0 +1,46 @@
+@use "./helpers";
+
+.bio {
+  display: inline-flex;
+  position: absolute;
+  width: 100vw;
+  max-width: 100%;
+  overflow-x: hidden;
+  place-content: center;
+}
+
+.bioHeader{
+  transform: scale(0.45);
+  margin-left: -35%;
+  margin-bottom: -15%;
+}
+
+.bioInfo{
+  border: helpers.$colour-emphasized 1px solid;
+  background-color: helpers.$colour-emphasized;
+  color: #fff;
+  border-radius: 7px;
+  padding: 1rem;
+  width: 60%;
+  margin-right: auto;
+}
+
+.bioImg{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  padding: 1rem;
+  padding-left: 2rem;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.bioImg:hover{
+  filter: saturate(0%);
+}
+
+.bioRight{
+  display: inline-flex;
+  flex-direction: column;
+  width: 50%;
+}

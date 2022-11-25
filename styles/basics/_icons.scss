@@ -1,0 +1,6 @@
+@use '../helpers';
+.fa-icon{
+  &:hover{
+    @extend %hover;
+  }
+}

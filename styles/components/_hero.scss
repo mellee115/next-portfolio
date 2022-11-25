@@ -1,0 +1,35 @@
+@use '../helpers';
+
+.hero{
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  height: 100%;
+  background: url("../../assets/images/hero-img.jpeg"); //fallback background
+  background:
+          linear-gradient(to top, transparent, #fff),
+          linear-gradient(transparent, 50%, #fff),
+          linear-gradient(transparent, 75%, #000),
+          url("../../assets/images/hero-img.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: luminosity;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-weight: helpers.$font-weight--medium;
+  font-size: 2rem;
+
+  &__name{
+    display: inline-block;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+    color: #fff;
+    font-size: 3.5rem;
+    filter: drop-shadow(0.25rem 0.25rem 0.25rem helpers.$colour-emphasized);
+    white-space: nowrap;
+    max-width: min-content;
+    border-right: .15em solid helpers.$colour-emphasized;
+    padding: 0.4rem;
+    @extend %typing;
+  }
+}

@@ -1,0 +1,73 @@
+@use 'variables';
+
+@keyframes blinking{
+  0%, 100%{
+    border-color: transparent;
+  }
+  50%{
+    border-color: variables.$colour-emphasized;
+  }
+}
+
+@keyframes drifting {
+  0%{
+    transform: translateX(-300px);
+    opacity: 0;
+  }
+  50%{
+    opacity: 1;
+  }
+  100%{
+    transform: translateX(200%);
+    opacity: 0;
+  }
+}
+
+%hover {
+  color: variables.$colour-emphasized !important;
+}
+
+.rotate{
+  -webkit-animation: rotation 2s infinite linear;
+  animation: rotation 3s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+  from {-webkit-transform: rotate(0deg);}
+  to   {-webkit-transform: rotate(359deg);}
+}
+
+@keyframes rotation {
+  from {-ms-transform: rotate(0deg);}
+  to   {-ms-transform: rotate(359deg);}
+
+  from {transform: rotate(0deg);}
+  to   {transform: rotate(359deg);}
+}
+
+@keyframes shrink-grow{
+  0%{
+    transform: scale(0.75);
+  }
+  50%{
+    transform: scale(0.45);
+  }
+  100%{
+    transform: scale(0.75);
+  }
+}
+
+%typing{
+  overflow: hidden;
+  animation: typing 4s steps(40),
+             blinking 1s step-end infinite;
+}
+
+@keyframes typing{
+  0%{
+    width: 0px;
+  }
+  100%{
+    width: 100%;
+  }
+}

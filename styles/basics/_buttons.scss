@@ -1,0 +1,33 @@
+@use '../helpers';
+
+button{
+  color: helpers.$colour-emphasized;
+  background-color: #FFF;
+  font-size: 1rem;
+  font-weight: helpers.$font-weight--medium;
+  border: 1px solid helpers.$colour-emphasized;
+  border-radius: 7px;
+  width: fit-content; //this is set to fit-content to reflect the varying width possibilities
+  height: 28px;
+  padding-left: 8px;
+  padding-right: 8px;
+
+  transition: all 0.5s ease;
+  transform: scale(1);
+}
+
+button:hover {
+  @extend button;
+  cursor: pointer;
+  transform: scale(1.025);
+  filter: brightness(105%);
+  font-weight: helpers.$font-weight--medium;
+}
+
+button:active{
+  background-color: helpers.$colour-emphasized;
+  color: #fff;
+  font-weight: helpers.$font-weight--medium;
+  transition: all 0.5s ease;
+  transform: scale(1);
+}
