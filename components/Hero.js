@@ -8,10 +8,10 @@ import React from "react";
 export const Hero = ({name}) =>{
   return(
     <div className="hero">
-      <p>
+      <div>
         welcome to the portfolio of <br/>
         <div className="hero__name">{name}</div>
-      </p>
+      </div>
     </div>
   );
 }
