@@ -1,6 +1,6 @@
 import React from "react";
 import Image from 'next/image';
-import bioImg from "../public/images/bio-colour.JPG";
+import bioImg from "../public/bio-colour.JPG";
 import hello from "../public/images/hello.png";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faLinkedin} from "@fortawesome/free-brands-svg-icons";
