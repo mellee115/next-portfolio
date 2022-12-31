@@ -2,10 +2,11 @@ import React from "react";
 
 /**
  * Hero component serves as the header home image display for the portfolio app
- * @param name
+ * @param props
  * @returns {JSX.Element}
  * @constructor */
-export const Hero = ({name}) =>{
+export const Hero = (props: { name: any; }): JSX.Element =>{
+    const name = props.name;
   return(
     <div className="hero">
       <div>

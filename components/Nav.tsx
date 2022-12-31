@@ -5,7 +5,7 @@ import React from 'react';
  * @param props
  * @returns {JSX.Element}
  * @constructor */
-export const Nav = (props) => {
+export const Nav = (props: { pages: any[]; handleNavClick: React.MouseEventHandler<HTMLButtonElement> | undefined; }): JSX.Element => {
   return(
     <nav>
       {props.pages.map(page => {
