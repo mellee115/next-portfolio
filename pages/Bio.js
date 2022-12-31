@@ -1,7 +1,5 @@
 import React from "react";
 import Image from 'next/image';
-import bioImg from "../public/bio-colour.JPG";
-import hello from "../public/hello.png";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faLinkedin} from "@fortawesome/free-brands-svg-icons";
 import {faGraduationCap} from "@fortawesome/free-solid-svg-icons";
@@ -12,9 +10,9 @@ export const Bio = () =>{
   return(
     <>
       <div className={styles.bio}>
-        <Image className={styles.bioImg} src={bioImg} alt=''/>
+        <Image className={styles.bioImg} src='/bio-colour.JPG' alt='' width={300} height={300}/>
         <div className={styles.bioRight}>
-          <Image className={styles.bioHeader} src={hello} alt={'Hello!!'}/>
+          <Image className={styles.bioHeader} src='/hello.png' alt='Hello!!' width={1303} height={531}/>
           <div className={styles.bioInfo}>
             <p>I am a front-end <b>Software Developer</b>, an <b>Artist</b>, and a <b>Musician</b>.</p>
             <hr/>
