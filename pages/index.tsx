@@ -14,7 +14,7 @@ import {Photos} from './Photos'
 export default function Home() {
     const [currentPage, setCurrentPage] = useState('Home');
 
-    const handleNavClick = (e) => {
+    const handleNavClick = (e: React.ChangeEvent<any>) => {
         setCurrentPage(e.target.value);
     }
 
