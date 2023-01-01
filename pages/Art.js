@@ -1,7 +1,7 @@
 import React from "react";
 import {ImgGrid} from "../components/ImgGrid";
 
-export const Art = () => {
+export default function Art(){
   //TODO: rewrite this in a better way?
   let imgs = [
     {src:"/images/art/blue gouache rose 1.png"},

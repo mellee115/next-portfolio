@@ -3,7 +3,7 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faYoutube, faSpotify, faLastfm} from "@fortawesome/free-brands-svg-icons";
 import {Blob} from "../components/Blob";
 
-export const Music = () => {
+export default function Music(){
   return (
     <>
       <ul>

@@ -2,7 +2,7 @@ import React from "react";
 import {ImgGrid} from "../components/ImgGrid";
 
 
-export const Photos = () => {
+export default function Photos(){
   //TODO: rewrite this in a better way?
   let imgs = [
     {src: "/images/photos/Toronto Sakura.JPG"},

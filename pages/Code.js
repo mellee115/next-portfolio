@@ -2,7 +2,7 @@ import React from "react";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faGithub, faReact, faSass} from "@fortawesome/free-brands-svg-icons";
 
-export const Code = () =>{
+export default function Code(){
   return(
     <div>
       <h2>This portfolio is built with the power of:</h2>
