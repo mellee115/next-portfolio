@@ -6,8 +6,9 @@
 }
 
 .imgGrid__img{
-  max-height: 300px;
+  height: max-content;
   max-width: 300px;
+  max-height: 500px;
   padding: .25rem;
   border-radius: 20px;
   position: relative;

@@ -1,20 +1,20 @@
 import React from "react";
 import {ImgGrid} from "../components/ImgGrid";
 
-import img1 from "../assets/images/photos/Toronto Sakura.JPG"
-import img2 from "../assets/images/photos/Sweet Dreams Noodle Soup Special.JPG"
-import img3 from "../assets/images/photos/Sweet Dreams Noodle Soup Smile.JPG"
-import img4 from "../assets/images/photos/Sweet Dreams Mango Bingsu Special.JPG"
-import img5 from "../assets/images/photos/Sweet Dreams Overhead Noodle Soup Special.JPG"
-import img6 from "../assets/images/photos/Macarons.JPG"
-import img7 from "../assets/images/photos/Sweet Dreams Hot Drink Special.JPG"
-import img8 from "../assets/images/photos/Sweet Dreams at night.JPG"
-import img9 from "../assets/images/photos/Rock Dunder Tiny Mushrooms.JPG"
-import img10 from "../assets/images/photos/Rock Dunder Tree Mushrooms.JPG"
-import img11 from "../assets/images/photos/Rock Dunder Juniper.JPG"
-import img12 from "../assets/images/photos/Super Flower Blood Moon.JPG"
-import img13 from "../assets/images/photos/Morning Moon.JPG"
-import img14 from "../assets/images/photos/Eucalyptus.JPG"
+import img1 from  "../public/images/photos/Toronto Sakura.JPG"
+import img2 from  "../public/images/photos/Sweet Dreams Noodle Soup Special.JPG"
+import img3 from  "../public/images/photos/Sweet Dreams Noodle Soup Smile.JPG"
+import img4 from  "../public/images/photos/Sweet Dreams Mango Bingsu Special.JPG"
+import img5 from  "../public/images/photos/Sweet Dreams Overhead Noodle Soup Special.JPG"
+import img6 from  "../public/images/photos/Macarons.JPG"
+import img7 from  "../public/images/photos/Sweet Dreams Hot Drink Special.JPG"
+import img8 from  "../public/images/photos/Sweet Dreams at night.JPG"
+import img9 from  "../public/images/photos/Rock Dunder Tiny Mushrooms.JPG"
+import img10 from "../public/images/photos/Rock Dunder Tree Mushrooms.JPG"
+import img11 from "../public/images/photos/Rock Dunder Juniper.JPG"
+import img12 from "../public/images/photos/Super Flower Blood Moon.JPG"
+import img13 from "../public/images/photos/Morning Moon.JPG"
+import img14 from "../public/images/photos/Eucalyptus.JPG"
 
 export const Photos = () => {
   //TODO: rewrite this in a better way?

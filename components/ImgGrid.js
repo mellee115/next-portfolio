@@ -10,7 +10,7 @@ export const ImgGrid = ({images}) => {
   return (
     <div className='imgGrid'>
       {images.map((image, key) =>
-        <Image key={key} className='imgGrid__img' src={image.src} alt={''}/>
+        <Image key={key} className='imgGrid__img' src={image.src} alt={''} width={300} height={500}/>
       )}
     </div>
   )
