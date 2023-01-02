@@ -5,17 +5,21 @@ import {Footer} from '../components/Footer'
 import {Hero} from '../components/Hero'
 import {Nav} from '../components/Nav'
 
-import {Art} from './Art'
-import {Bio} from './Bio'
-import {Code} from './Code'
-import {Music} from './Music'
-import {Photos} from './Photos'
+import Art from './Art'
+import Bio from './Bio'
+import Code from './Code'
+import Music from './Music'
+import Photos from './Photos'
 
 export default function Home() {
     const [currentPage, setCurrentPage] = useState('Home');
 
     const handleNavClick = (e: React.ChangeEvent<any>) => {
-        setCurrentPage(e.target.value);
+        if (e.target.value === 'Shop'){
+            window.location.replace('https://made-by-mel-shop.vercel.app/')
+        } else {
+            setCurrentPage(e.target.value);
+        }
     }
 
     let content;
@@ -51,7 +55,7 @@ export default function Home() {
             </Head>
             <Nav
                 handleNavClick={(e) => handleNavClick(e)}
-                pages={['Home', 'Art', 'Bio', 'Code', 'Music', 'Photos',]}
+                pages={['Home', 'Art', 'Bio', 'Code', 'Music', 'Photos','Shop']}
             />
             <main>
                 {content}

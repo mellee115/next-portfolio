@@ -77,3 +77,8 @@ main{
   flex-direction: column;
   place-content: center;
 }
+
+img {
+  pointer-events: none;
+  -webkit-touch-callout: none;
+}
