@@ -1,8 +1,13 @@
 @use '../helpers';
 
+@media (max-width: 500px) {
+  .hero{
+    width: 124%;
+  }
+}
+
 .hero{
-  display: flex;
-  flex-direction: column;
+  display: grid;
   place-content: center;
   height: 100%;
   background: url("/hero-img.jpeg"); //fallback background
@@ -14,10 +19,12 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: luminosity;
+  background-position: center;
   padding-top: 1rem;
   padding-bottom: 1rem;
   font-weight: helpers.$font-weight--medium;
   font-size: 2rem;
+
 
   &__name{
     display: inline-block;

@@ -2,17 +2,10 @@
 
 .bio {
   display: inline-flex;
-  position: absolute;
-  width: 100vw;
-  max-width: 100%;
-  overflow-x: hidden;
-  place-content: center;
+  margin-inline: auto;
 }
 
 .bioHeader{
-  transform: scale(0.45);
-  margin-left: -35%;
-  margin-bottom: -15%;
 }
 
 .bioInfo{
@@ -21,7 +14,7 @@
   color: #fff;
   border-radius: 7px;
   padding: 1rem;
-  width: 60%;
+  //width: 100%;
   margin-right: auto;
 }
 
@@ -42,5 +35,4 @@
 .bioRight{
   display: inline-flex;
   flex-direction: column;
-  width: 50%;
 }

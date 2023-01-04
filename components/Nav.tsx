@@ -6,20 +6,21 @@ import React from 'react';
  * @returns {JSX.Element}
  * @constructor */
 export const Nav = (props: { pages: any[]; handleNavClick: React.MouseEventHandler<HTMLButtonElement> | undefined; }): JSX.Element => {
-  return(
-    <nav>
-      {props.pages.map(page => {
+    return (
+        <nav>
+            {props.pages.map(page => {
 
-        return(
-          <button
-            className='m-r-5'
-            onClick={props.handleNavClick}
-            value={page}
-            key={page}
-          >
-            {page}
-          </button>
-        )})}
-    </nav>
-  )
+                return (
+                    <button
+                        className='m-r-5'
+                        onClick={props.handleNavClick}
+                        value={page}
+                        key={page}
+                    >
+                        {page}
+                    </button>
+                )
+            })}
+        </nav>
+    )
 }

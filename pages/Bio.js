@@ -12,7 +12,7 @@ export default function Bio(){
       <div className={styles.bio}>
         <Image className={styles.bioImg} src='/bio-colour.JPG' alt='' width={300} height={300}/>
         <div className={styles.bioRight}>
-          <Image className={styles.bioHeader} src='/hello.png' alt='Hello!!' width={1303} height={531}/>
+          <Image className={styles.bioHeader} src='/hello.png' alt='Hello!!' width={550} height={300}/>
           <div className={styles.bioInfo}>
             <p>I am a front-end, <b>Software Developer</b>, an <b>Artist</b>, and a <b>Musician</b>.</p>
             <hr/>
