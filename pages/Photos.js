@@ -14,6 +14,8 @@ export default function Photos(){
     {src: "/images/photos/Macarons.JPG"},
     {src: "/images/photos/Sweet Dreams Hot Drink Special.JPG"},
     {src: "/images/photos/Sweet Dreams at night.JPG"},
+    {src: "/images/photos/Elora Film Photo Layering.jpg"},
+    {src: "/images/photos/Waterloo Flowers Film Photo Layering.jpg"},
     {src: "/images/photos/Rock Dunder Tiny Mushrooms.JPG"},
     {src: "/images/photos/Rock Dunder Tree Mushrooms.JPG"},
     {src: "/images/photos/Rock Dunder Juniper.JPG"},
