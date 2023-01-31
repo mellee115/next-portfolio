@@ -8,17 +8,21 @@ export default function Photos(){
     {src: "/images/photos/Toronto Sakura.JPG"},
     {src: "/images/photos/Sweet Dreams Noodle Soup Special.JPG"},
     {src: "/images/photos/Sweet Dreams Noodle Soup Smile.JPG"},
+    {src: "/images/photos/3 Macarons and Taro.JPG"},
     {src: "/images/photos/Sweet Dreams Mango Bingsu Special.JPG"},
     {src: "/images/photos/Sweet Dreams Overhead Noodle Soup Special.JPG"},
     {src: "/images/photos/Macarons.JPG"},
     {src: "/images/photos/Sweet Dreams Hot Drink Special.JPG"},
     {src: "/images/photos/Sweet Dreams at night.JPG"},
+    {src: "/images/photos/Elora Film Photo Layering.JPG"},
+    {src: "/images/photos/Waterloo Flowers Film Photo Layering.JPG"},
     {src: "/images/photos/Rock Dunder Tiny Mushrooms.JPG"},
     {src: "/images/photos/Rock Dunder Tree Mushrooms.JPG"},
     {src: "/images/photos/Rock Dunder Juniper.JPG"},
     {src: "/images/photos/Super Flower Blood Moon.JPG"},
     {src: "/images/photos/Morning Moon.JPG"},
     {src: "/images/photos/Eucalyptus.JPG"},
+    {src: "/images/photos/Muskrat.JPG"},
   ]
 
   return (<>

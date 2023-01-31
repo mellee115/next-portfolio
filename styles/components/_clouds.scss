@@ -1,13 +1,17 @@
-@use "../helpers";
+@use '../helpers';
 
 .clouds {
+  display: grid;
   position: absolute;
   z-index: -1;
-  fill: helpers.$colour-emphasized !important; //note: only applying to cloud1 currently
+  margin:0;
+  width: 100vw;
+  overflow: hidden;
 }
 
 .cloud1 {
   animation: drifting 65s linear infinite;
+  fill: helpers.$colour-emphasized !important; //note: only applying to cloud1 currently
   margin-top: 20%;
   opacity: 0%;
   width: 50%;

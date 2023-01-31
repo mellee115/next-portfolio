@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 import Image from 'next/image';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faLinkedin} from "@fortawesome/free-brands-svg-icons";
-import {faGraduationCap} from "@fortawesome/free-solid-svg-icons";
-import {Clouds} from "../components/Clouds";
+import {faLinkedin} from '@fortawesome/free-brands-svg-icons';
+import {faGraduationCap} from '@fortawesome/free-solid-svg-icons';
+import {Clouds} from '../components/Clouds';
 import styles from '../styles/Bio.module.scss';
 
 export default function Bio(){

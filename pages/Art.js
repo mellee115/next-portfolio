@@ -4,12 +4,16 @@ import {ImgGrid} from "../components/ImgGrid";
 export default function Art(){
   //TODO: rewrite this in a better way?
   let imgs = [
+    {src:"/images/art/heart laptop plain.jpg"},
+    {src:"/images/art/bear and flowers.png"},
+    {src:"/images/art/Chinchou Rubber Stamp.jpg"},
     {src:"/images/art/blue gouache rose 1.png"},
     {src:"/images/art/mushrooms stamp.jpg"},
     {src:"/images/art/mushrooms stamp print.jpg"},
     {src:"/images/art/abstract acrylic painting 2.jpg"},
     {src:"/images/art/bun coloured w mint green.png"},
     {src:"/images/art/tulips with blue grid.jpg"},
+    {src:"/images/art/Clementine.jpg"},
     {src:"/images/art/gouache pear.jpg"},
     {src:"/images/art/polymer clay crane.jpg"},
     {src:"/images/art/abstract acrylic painting 1.jpg"},
